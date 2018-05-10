@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="login_input_name_max">20</integer>
+
+    <integer name="login_input_password_max">20</integer>
+
+    <integer name="content_description_string_max">100</integer>
+
+    <integer name="content_name_string_max">20</integer>
+
+    <integer name="infonode_description_string_max">100</integer>
+
+</resources>

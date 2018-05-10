@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_available_network">Check Network</string>
+
+    <string name="sign_in_brand_error">Brand Invalid</string>
+    <string name="sign_in_user_error">User Invalid</string>
+    <string name="sign_in_password_error">Password Invalid</string>
+
+
+    <string name="sign_in_Illegal_Access_Token">Sign In Expired</string>
+
+    <string name="sign_in_Access_Token_is_expired">Sign In Expired</string>
+
+    <string name="file_formation_invalid">File Format Error</string>
+</resources>

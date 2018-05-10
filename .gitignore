@@ -1,0 +1,12 @@
+
+.idea
+.gradle/
+.idea
+gradle/
+.idea/libraries
+build/
+app/app.iml
+materialinfo/materialinfo.iml
+*.iml
+gradlew.*
+gradlew

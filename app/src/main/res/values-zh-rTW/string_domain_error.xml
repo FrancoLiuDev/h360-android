@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_available_network">請檢查網路連線</string>
+
+    <string name="sign_in_brand_error">商號錯誤</string>
+    <string name="sign_in_user_error">用戶名錯誤</string>
+    <string name="sign_in_password_error">密碼錯誤</string>
+
+
+    <string name="sign_in_Illegal_Access_Token">登入授權過期</string>
+
+    <string name="sign_in_Access_Token_is_expired">登入授權過期</string>
+
+    <string name="file_formation_invalid">檔案格式錯誤</string>
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_klozr_login_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".view.activity.UserLoginActivity">
+
+
+    <!-- Logo layout -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+
+        android:layout_marginBottom="0dp"
+        android:clipChildren="true"
+
+        android:id="@+id/logo_layout"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/Logo_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:padding="3dp"
+            android:src="@drawable/image_oview360_icon"
+
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="false"
+
+
+            android:scaleType="fitCenter" />
+
+    </RelativeLayout>
+
+    <!-- account input / password input / summit button -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marge_between_layouts"
+        android:clipChildren="true"
+
+        android:id="@+id/login_input_layout"
+
+        android:layout_below="@+id/logo_layout"
+        >
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/login_ip_address_layout"
+
+            >
+
+            <ImageView
+                android:id="@+id/password_address"
+                android:src="@drawable/icon_server_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+
+                  />
+
+            <EditText
+                android:layout_width="0dp"
+                android:text=""
+                android:maxLines="1"
+                android:ellipsize="end"
+
+                android:textColor="@color/color_login_input_text"
+
+                android:textSize = "@dimen/app_font_content_size"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_address"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/password_address"
+
+                />
+
+            <ImageView
+                android:id="@+id/img_address_error"
+                android:src="@drawable/icon_field_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/login_account_layout"
+            android:layout_marginTop="@dimen/marge_between_input_field"
+            android:layout_below="@+id/login_ip_address_layout"
+
+            >
+
+            <ImageView
+                android:id="@+id/account_label"
+                android:src="@drawable/icon_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+
+                />
+
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:text=""
+                android:textColor="@color/color_login_input_text"
+                android:maxLines="1"
+                android:ellipsize="end"
+
+                android:textSize = "@dimen/app_font_content_size"
+                android:maxLength = "@integer/login_input_name_max"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_name"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/account_label"
+                />
+
+            <ImageView
+                android:id="@+id/img_name_error"
+                android:src="@drawable/icon_field_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login_account_layout"
+            android:id="@+id/login_password_layout"
+            android:layout_marginTop="@dimen/marge_between_input_field"
+            >
+
+
+            <ImageView
+                android:id="@+id/password_label"
+                android:src="@drawable/icon_user_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+
+                />
+
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:text=""
+                android:maxLines="1"
+                android:ellipsize="end"
+
+                android:textColor="@color/color_login_input_text"
+                android:maxLength = "@integer/login_input_password_max"
+                android:textSize = "@dimen/app_font_content_size"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_password"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/password_label"
+                />
+
+            <ImageView
+                android:id="@+id/img_password_error"
+                android:src="@drawable/icon_field_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/marge_before_input_field_left"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/submit_button"
+            android:src="@drawable/image_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_password_layout"
+            android:layout_marginEnd="@dimen/marge_before_input_field_left"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/marge_between_layouts"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <TextView
+        android:text="@string/login_tip_chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize = "@dimen/app_font_tip_size"
+        android:layout_marginEnd="5dp"
+
+        android:layout_above="@+id/tip_second"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/tip_chinese" />
+
+    <TextView
+        android:text="@string/login_tip_second_lag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize = "@dimen/app_font_content_size_small"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tip_second" />
+
+
+</RelativeLayout>

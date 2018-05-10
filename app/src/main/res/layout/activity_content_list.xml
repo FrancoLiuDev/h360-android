@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    tools:context=".view.activity.ContentListActivity">
+
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/refresh_content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/load_more_layout"
+        app:srl_direction="top">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cover_list_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_above="@+id/load_more_layout"
+            android:paddingBottom="@dimen/content_vertical_margin"
+            android:paddingLeft="@dimen/content_horizontal_margin"
+            android:paddingRight="@dimen/content_horizontal_margin"
+            android:paddingTop="@dimen/content_vertical_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clipChildren="true"
+        android:background="@color/color_transparent"
+
+
+        android:id="@+id/load_more_layout"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerHorizontal="true"
+
+            app:indicatorColor="@color/color_visual_main_transparent_dark"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorRecycleViewBackground">#FDfDFD</color>
+
+    <color name="colorMenuItemBackground">@color/color_transparent</color>
+
+    <color name="colorActionBarBackground">@color/color_main</color>
+
+    <color name="colorActionBarTitle">@color/colorTitleWhite</color>
+
+    <color name="colorTitleWhite">#eeffffff</color>
+
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ee000000</color>
+    <color name="color_transparent">#00ffffff</color>
+    <color name="color_transparent_black_light">#70000000</color>
+
+
+    <color name="color_visual_main"> #1d2838</color>
+    <color name="color_visual_main_transparent_dark"> #aa1d2838</color>
+    <color name="color_visual_main_transparent_light"> #aaFFFFFF</color>
+
+    <color name="color_visual_popo_green"> #1caf9a</color>
+
+    <color name="color_visual_popo_red">#FF605E</color>
+
+</resources>

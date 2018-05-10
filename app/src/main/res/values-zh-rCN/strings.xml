@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Oview360</string>
+    <string name="login">登入</string>
+    <string name="user_account">帐号</string>
+    <string name="user_password">密码</string>
+
+
+    <string name="login_tip_chinese">此页面仅提供管理人员登入使用</string>
+    <string name="login_tip_second_lag">This page is for admin login only</string>
+
+    <string name="data_loading">资料加载中。。</string>
+
+    <string name="please_place_qrcode_inorder_to_scan"> 将行动条码置方框内，即可自动扫描</string>
+    <string name="please_place_qrcode_inorder_to_scan_sec_lag">Place qr code inside the rectangle to scan it</string>
+
+
+    <string name="display_viewer_list">Viewer List</string>
+
+
+
+    <string name="confirm_delete_option">确认是否删除</string>
+    <string name="confirm_cancel">取消</string>
+    <string name="confirm_ok">确认</string>
+
+    <string name="confirm_logout_option">确认是否登出</string>
+
+    <string name="confirm_logout_confirm">请重新登入</string>
+
+    <string name="please_input_ip_address">请输入伺服地址</string>
+    <string name="invalid_input_ip_addr">無效的伺服地址</string>
+    <string name="please_ip_address">地址</string>
+
+    <string name="tip_add_info_node">請先選擇特徵點標注位置，再編輯說明文字</string>
+
+    <string name="process_complete">操作己完成</string>
+</resources>

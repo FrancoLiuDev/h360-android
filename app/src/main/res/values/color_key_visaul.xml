@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_main">@color/color_visual_main</color>
+    <color name="color_main_transparent_dark">@color/color_visual_main_transparent_dark</color>
+    <color name="color_main_transparent_light">@color/color_visual_main_transparent_light</color>
+    <color name="color_accent_1">@color/color_visual_popo_green</color>
+    <color name="color_accent_red">@color/color_visual_popo_red</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="content_horizontal_margin">10dp</dimen>
+    <dimen name="content_vertical_margin">10dp</dimen>
+
+
+    <!-- icon -->
+    <dimen name="action_bar_image_size">22dp</dimen>
+
+
+
+    <dimen name="marge_to_layout_side">10dp</dimen>
+
+
+    <!-- font size-->
+    <dimen name="app_font_content_size">16sp</dimen>
+
+    <dimen name="app_font_tip_size">13sp</dimen>
+    <dimen name="app_font_content_size_small">11sp</dimen>
+
+
+    <!-- dimen for info node-->
+    <dimen name="card_view_margin">0dp</dimen>
+    <dimen name="info_text_size">16sp</dimen>
+
+
+    <!-- login page-->
+    <dimen name="marge_between_input_field">0dp</dimen>
+    <dimen name="marge_before_input_field_left">0dp</dimen>
+    <dimen name="marge_between_input_loginBt">15dp</dimen>
+    <dimen name="marge_between_layouts">20dp</dimen>
+
+</resources>

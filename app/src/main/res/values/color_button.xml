@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_temp">@color/color_accent_1</color>
+    <color name="green_dark">@color/color_accent_1</color>
+    <color name="bright_green">@color/color_accent_1</color>
+    <color name="button_green">@color/color_accent_1</color>
+
+
+
+
+
+
+
+</resources>

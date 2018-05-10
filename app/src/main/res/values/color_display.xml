@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_display_tip_light">@color/color_white</color>
+    <color name="color_scan_view_mask">@color/color_main_transparent_dark</color>
+    <color name="color_scan_view_focus_boarder">@color/color_accent_1</color>
+    <color name="color_info_node_mask_color">@color/color_accent_1</color>
+</resources>
